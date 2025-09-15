@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Meus Projetos Arduino</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #abeef0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #8f2a87;
+    margin-top: 30px;
+}
+
+/* Estilo das faixas dos projetos */
+.faixa-projeto {
+    background-color: #020b1470;
+    color: white;
+    border-radius: 15px;
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.faixa-projeto img {
+    width: 400px;
+    border-radius: 15px;
+    border: 3px solid #8f2a87;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.faixa-projeto img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #8f2a87;
+}
+.faixa-projeto a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: #8f2a87;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.faixa-projeto a:hover {
+    background-color: #6d2067;
+    transform: scale(1.05);
+}
+footer {
+    background-color: #000;  /* fundo preto */
+    color: white;            /* texto branco */
+    padding: 15px;           /* espaço interno */
+    text-align: center;      /* centraliza o texto */
+    margin-top: 40px;        /* espaço antes do rodapé */
+}
+
+footer p {
+    color: white; /* garante que os <p> do footer fiquem brancos */
+    margin: 0;
+}
+/* 🎨 Estilo do botão voltar */
+        .botao-voltar {
+            display: inline-block;
+            margin: 40px auto;
+            padding: 14px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #8f2a87, #d94fcf);
+            color: white;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+            text-decoration: none; /* remove sublinhado */
+        }
+        .botao-voltar:hover {
+            background: linear-gradient(135deg, #6d2067, #b93fae);
+            transform: scale(1.08);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+        }
+        .botao-voltar:active {
+            transform: scale(0.95);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        footer {
+    background-color: #000;  /* fundo preto */
+    color: white;            /* texto branco */
+    padding: 15px;           /* espaço interno */
+    text-align: center;      /* centraliza o texto */
+    margin-top: 40px;        /* espaço antes do rodapé */
+}
+footer p {
+    color: white; /* garante que os <p> do footer fiquem brancos */
+    margin: 0;
+}
+</style>
+</head>
+<body>
+
+<h1>Meus Projetos com Arduino</h1>
+
+<!-- Projeto 1 -->
+<div class="faixa-projeto">
+   <p>É um circuito onde o fotoresistor (LDR) detecta a quantidade de luz no ambiente, o servo motor reage a essa luminosidade, e os LEDs indicam a situação.<p>
+    <br>
+    <a href="https://www.tinkercad.com/things/heOYVTbPPpJ-servomotor" target="_blank">LINK SERVO MOTOR COM FOTORESISTOR E DOIS LEDS!</a>
+</div>
+
+<!-- Projeto 2 -->
+<div class="faixa-projeto">
+    <p>Um potenciômetro é um resistor variável (um botão giratório que muda a resistência).
+Quando você conecta no Arduino, ele gera valores de 0 a 1023 (leitura analógica).
+Esses valores podem ser exibidos no Serial Monitor do Arduino IDE, como se fosse um visor digital.<p>
+    <br>
+    <a href="https://www.tinkercad.com/things/busvv7ENk7A-monitor-lcd-com-potenciometro" target="_blank">LINK MONITOR POTENCIÔMETRO E DOIS LEDS!</a>
+</div>
+
+<!-- Projeto 3 -->
+<div class="faixa-projeto">
+    <p>É um projetinho onde o Arduino lê a temperatura através de um sensor e usa dois LEDs para indicar a situação.<p>
+    <br>
+    <a href="https://www.tinkercad.com/things/li4nQDOhRt8-sensor-de-temperatura" target="_blank">LINK SENSOR DE TEMPERATURA E DOIS LEDS!</a>
+</div>
+ <!-- Botão de voltar -->
+    <a href="../Index.html">
+        <button class="botao-voltar">⬅ Voltar para Página Inicial</button>
+    </a>
+    <br>
+      <!-- Faixa de rodapé -->
+<div class="faixa-rodape">
+    <p>Projeto Senai desenvolvedor: Jonathas Trevezani</p>
+    
+    <a href="https://web.whatsapp.com/" target="_blank">Tel: (21) 98779-0991 💬 WhatsApp</a>
+</div>
+<br><br><br><br>
+
+<footer>
+    <p>@ 2025 portfólio. Todos  os direitos reservados.</p>
+</footer>
+
+</body>
+</html>

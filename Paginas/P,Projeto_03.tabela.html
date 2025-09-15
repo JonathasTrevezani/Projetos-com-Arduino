@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tabela de Projetos Arduino</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 24px; 
+      background: #f5f7fa; 
+      color: #222;
+    }
+    h1 { 
+      margin: 0 0 12px; 
+      font-size: 1.6rem; 
+      color: #8f2a87; /* Roxo do seu tema */
+    }
+    p.note { 
+      margin: 0 0 16px; 
+      font-size: .9rem; 
+      color: #555; 
+    }
+    table { 
+      width: 100%; 
+      border-collapse: collapse; 
+      box-shadow: 0 3px 8px rgba(0,0,0,.1);
+    }
+    th, td { 
+      border: 1px solid #ddd; 
+      padding: 12px; 
+      text-align: left; 
+    }
+    th { 
+      background: #8f2a87; /* Roxo do tema */
+      color: white;
+    }
+    tbody tr:nth-child(even) { 
+      background: #e9edf2; 
+    }
+    tbody tr:hover {
+      background: #d0d8e5; 
+    }
+    a.link-tinkercad {
+      color: #8f2a87;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a.link-tinkercad:hover {
+      text-decoration: underline;
+    }
+     /* 🎨 Estilo do botão voltar */
+        .botao-voltar {
+            display: inline-block;
+            margin: 40px auto;
+            padding: 14px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #8f2a87, #d94fcf);
+            color: white;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+            text-decoration: none; /* remove sublinhado */
+        }
+        .botao-voltar:hover {
+            background: linear-gradient(135deg, #6d2067, #b93fae);
+            transform: scale(1.08);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+        }
+        .botao-voltar:active {
+            transform: scale(0.95);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        footer {
+    background-color: #000;  /* fundo preto */
+    color: white;            /* texto branco */
+    padding: 15px;           /* espaço interno */
+    text-align: center;      /* centraliza o texto */
+    margin-top: 40px;        /* espaço antes do rodapé */
+}
+footer p {
+    color: white; /* garante que os <p> do footer fiquem brancos */
+    margin: 0;
+}
+  </style>
+</head>
+<body>
+  <h1>Projetos Arduino — Tabela</h1>
+  <p class="note">*Projetos do Tinkercad.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Projeto</th>
+        <th>Tipo</th>
+        <th>Componentes</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Servo Motor com Fotoresistor</td>
+        <td>Automação</td>
+        <td>Servo motor, Fotoresistor, 2 LEDs</td>
+        <td><a href="https://www.tinkercad.com/things/heOYVTbPPpJ-servomotor" target="_blank" class="link-tinkercad">Tinkercad</a></td>
+      </tr>
+      <tr>
+        <td>Monitor LCD com Potenciômetro</td>
+        <td>Exibição de dados</td>
+        <td>LCD, Potenciômetro, 2 LEDs</td>
+        <td><a href="https://www.tinkercad.com/things/busvv7ENk7A-monitor-lcd-com-potenciometro" target="_blank" class="link-tinkercad">Tinkercad</a></td>
+      </tr>
+      <tr>
+        <td>Sensor de Temperatura</td>
+        <td>Monitoramento</td>
+        <td>Sensor de temperatura, 2 LEDs</td>
+        <td><a href="https://www.tinkercad.com/things/li4nQDOhRt8-sensor-de-temperatura" target="_blank" class="link-tinkercad">Tinkercad</a></td>
+      </tr>
+    </tbody>
+  </table>
+      <!-- Botão de voltar -->
+    <a href="../Index.html">
+        <button class="botao-voltar">⬅ Voltar para Página Inicial</button>
+    </a>
+      <!-- Faixa de rodapé -->
+<div class="faixa-rodape">
+    
+
+</body>
+</html>
