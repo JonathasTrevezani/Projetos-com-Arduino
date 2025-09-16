@@ -12,11 +12,11 @@
             margin: 0;
             padding: 0;
         }
-h1 {
-    color: #8f2a87;
-    margin-top: 30px;
-}
-.faixa-azul {
+        h1 {
+            color: #8f2a87;
+            margin-top: 30px;
+        }
+        .faixa-azul {
             background-color: #020b1470;
             color: white;
             font-size: 24px;
@@ -55,88 +55,74 @@ h1 {
             box-shadow: 0 2px 8px rgba(0,0,0,0.2);
         }
         footer {
-    background-color: #000;  /* fundo preto */
-    color: white;            /* texto branco */
-    padding: 15px;           /* espaço interno */
-    text-align: center;      /* centraliza o texto */
-    margin-top: 40px;        /* espaço antes do rodapé */
-}
-footer p {
-    color: white; /* garante que os <p> do footer fiquem brancos */
-    margin: 0;
-}
-
-</style>
+            background-color: #000;  /* fundo preto */
+            color: white;            /* texto branco */
+            padding: 15px;           /* espaço interno */
+            text-align: center;      /* centraliza o texto */
+            margin-top: 40px;        /* espaço antes do rodapé */
+        }
+        footer p {
+            color: white; /* garante que os <p> do footer fiquem brancos */
+            margin: 0;
+        }
+        .imagem {
+            width: 300px; /* tamanho padrão das imagens */
+            max-width: 500px;
+            height: auto;
+            border-radius: 15px; /* bordas arredondadas */
+            border: 3px solid #8f2a87;
+            transition: 0.3s;
+            cursor: pointer;
+            margin: 20px 0;
+        }
+        .imagem:hover {
+            transform: scale(1.03); /* aumenta um pouco no hover */
+            box-shadow: 0 0 15px #8f2a87; /* brilho ao redor */
+        }
+    </style>
 </head>
 <body>
-    <h1>Seja bem vindo a pagina de projetos com Arduino!</h1>
+    <h1>Seja bem vindo à página de projetos com Arduino!</h1>
 
     <div class="faixa-azul">Exemplos de projetos!</div>
 
-        <img src="imagens/servo_fotoresistor.jpeg" alt="Servo motor e Fotoresistor" style="width: 30px; height:auto">
-     <p>
-  <a href="https://www.tinkercad.com/things/heOYVTbPPpJ-servomotor" target="_blank">
-    LINK SERVO MOTOR COM FOTORESISTOR E DOIS LEDS!
-  </a>
-</p>
-
-     <img src="imagens/monitor_potenciômetro.jpeg" alt="Monitor potenciômetro E dois leds" style="width: 30px; height: auto;">
+    <!-- Servo motor com fotoresistor -->
+    <img src="imagens/servo_fotoresistor.jpeg" alt="Servo motor e Fotoresistor" class="imagem">
     <p>
-  <a href="https://www.tinkercad.com/things/busvv7ENk7A-monitor-lcd-com-potenciometro" target="_blank">
-    LINK MONITOR POTENCIÔMETRO E DOIS LEDS!
-  </a>
-</p>
+        <a href="https://www.tinkercad.com/things/heOYVTbPPpJ-servomotor" target="_blank">
+            LINK SERVO MOTOR COM FOTORESISTOR E DOIS LEDS!
+        </a>
+    </p>
 
-     <img src="imagens/sensor_temperetura.jpeg" alt="Sensor de temperatura e dois leds" style="width: 30px; height: auto;">
+    <!-- Monitor com potenciômetro -->
+    <img src="imagens/monitor_potenciometro.jpeg" alt="Monitor potenciômetro e dois leds" class="imagem">
     <p>
-  <a href="https://www.tinkercad.com/things/li4nQDOhRt8-sensor-de-temperatura" target="_blank">
-    LINK SENSOR DE TEMPERATURA E DOIS LEDS!
-  </a>
-</p>
+        <a href="https://www.tinkercad.com/things/busvv7ENk7A-monitor-lcd-com-potenciometro" target="_blank">
+            LINK MONITOR POTENCIÔMETRO E DOIS LEDS!
+        </a>
+    </p>
+
+    <!-- Sensor de temperatura -->
+    <img src="imagens/sensor_temperatura.jpeg" alt="Sensor de temperatura e dois leds" class="imagem">
+    <p>
+        <a href="https://www.tinkercad.com/things/li4nQDOhRt8-sensor-de-temperatura" target="_blank">
+            LINK SENSOR DE TEMPERATURA E DOIS LEDS!
+        </a>
+    </p>
 
     <!-- Botão de voltar -->
     <a href="https://buga40.github.io/Projetos-com-Arduino/">
         <button class="botao-voltar">⬅ Voltar para Página Inicial</button>
     </a>
-     <!-- Faixa de rodapé -->
-<div class="faixa-rodape">
-    <p>Projeto Senai desenvolvedor: Jonathas Trevezani</p>
-   
-    <a href="https://web.whatsapp.com/" target="_blank">Tel: (21) 98779-0991 💬 WhatsApp</a>
-</div>
-<br><br><br><br>
 
-<footer>
-    <p>@ 2025 portfólio. Todos  os direitos reservados.</p>
-</footer>
-        </body>
+    <!-- Faixa de rodapé -->
+    <div class="faixa-rodape">
+        <p>Projeto Senai desenvolvedor: Jonathas Trevezani</p>
+        <a href="https://web.whatsapp.com/" target="_blank">Tel: (21) 98779-0991 💬 WhatsApp</a>
+    </div>
 
+    <footer>
+        <p>@ 2025 portfólio. Todos os direitos reservados.</p>
+    </footer>
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
