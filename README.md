@@ -26,7 +26,7 @@ Aqui você encontrará exemplos práticos utilizando **Tinkercad** e códigos si
 
 ## 🚀 Como acessar o projeto
 O site está publicado no **GitHub Pages**:  
-👉 [Clique aqui para ver online](https://buga40.github.io/Projetos-com-Arduino/)
+👉 [Clique aqui para ver online](https://JonathasTrevezani.github.io/Projetos-com-Arduino/)
 
 ---
 
