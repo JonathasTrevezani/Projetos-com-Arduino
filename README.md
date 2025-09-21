@@ -41,7 +41,7 @@ O site está publicado no **GitHub Pages**:
 **Jonathas Trevezani**  
 📧 [Email](mailto:joni.rj@hotmail.com)  
 💼 [LinkedIn](https://www.linkedin.com/in/jonathas-trevezani-169598)  
-💬 WhatsApp: (21) 98779-0991  
+📱 WhatsApp: [Clique para conversar](https://wa.me/5521987790991)
 
 ---
 
